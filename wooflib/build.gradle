@@ -1,4 +1,4 @@
-apply plugin: 'com.novoda.bintray-release'
+/*apply plugin: 'com.novoda.bintray-release'*/
 apply plugin: 'com.android.library'
 
 android {
@@ -33,7 +33,7 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 }
-
+/*
 publish {
     groupId = 'com.github.youlookbetteronline'
     artifactId = 'wooflib'
@@ -41,4 +41,4 @@ publish {
     desc = 'A small library containing a wrapper for the SharedPreferences of Android'
     licences = ['MIT']
     website = 'https://github.com/youlookbetteronline/wooflib'
-}
+}*/
